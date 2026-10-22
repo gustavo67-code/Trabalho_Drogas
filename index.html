@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Site educativo sobre drogas, efeitos, riscos, prevenção e onde buscar ajuda.">
+  <title>Escolhas & Saúde | Informação e Prevenção</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topo" id="inicio">
+    <a class="marca" href="#inicio" aria-label="Escolhas e Saúde, início">
+      <span class="marca-icone">+</span>
+      <span>Escolhas<span class="marca-clara"> & Saúde</span></span>
+    </a>
+    <button class="menu-botao" id="menuBotao" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="menu" id="menu">
+      <a href="#sobre">Sobre</a>
+      <a href="#substancias">Substâncias</a>
+      <a href="#prevencao">Prevenção</a>
+      <a href="#ajuda">Onde buscar ajuda</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-conteudo">
+        <span class="etiqueta">INFORMAÇÃO • CONSCIENTIZAÇÃO • PREVENÇÃO</span>
+        <h1>Conhecimento é uma forma de <span>proteção.</span></h1>
+        <p>Entenda os efeitos das drogas, conheça os riscos e descubra caminhos para fazer escolhas mais seguras — sem julgamentos e com informação confiável.</p>
+        <div class="hero-acoes">
+          <a class="botao botao-principal" href="#substancias">Explorar substâncias <span>→</span></a>
+          <a class="botao botao-secundario" href="#prevencao">Aprender a prevenir</a>
+        </div>
+        <div class="nota-hero"><span class="ponto"></span> Conteúdo educativo para estudantes e comunidade</div>
+      </div>
+      <div class="hero-cartao">
+        <div class="simbolo">✳</div>
+        <p class="cartao-mini">UM PASSO DE CADA VEZ</p>
+        <h2>Informação ajuda. Apoio faz diferença.</h2>
+        <p>Conversar com alguém de confiança pode ser o começo de uma mudança positiva.</p>
+        <a href="#ajuda">Conheça opções de apoio ↗</a>
+      </div>
+      <div class="decor decor-1"></div><div class="decor decor-2"></div>
+    </section>
+
+    <section class="faixa" aria-label="Princípios">
+      <div><strong>01</strong><span>Entender os efeitos</span></div>
+      <div><strong>02</strong><span>Reconhecer os riscos</span></div>
+      <div><strong>03</strong><span>Buscar apoio sem vergonha</span></div>
+    </section>
+
+    <section class="secao sobre" id="sobre">
+      <div class="cabecalho-secao">
+        <span class="sobretitulo">POR QUE FALAR SOBRE ISSO?</span>
+        <h2>Informação sem preconceito.</h2>
+      </div>
+      <p class="texto-intro">A palavra “droga” pode se referir a substâncias que alteram o funcionamento do corpo ou do cérebro. Algumas são legais, outras ilegais; todas podem apresentar riscos dependendo da substância, da quantidade, da frequência e das condições de cada pessoa.</p>
+      <div class="alerta-info"><span class="alerta-icone">i</span><p><strong>Importante:</strong> este site é educativo e não substitui orientação médica. A dependência não é falta de caráter, e pedir ajuda é um sinal de cuidado consigo mesmo.</p></div>
+    </section>
+
+    <section class="secao substancias" id="substancias">
+      <div class="cabecalho-secao central">
+        <span class="sobretitulo">GUIA DE INFORMAÇÃO</span>
+        <h2>Conheça as substâncias</h2>
+        <p>Selecione um tema para aprender sobre efeitos e riscos.</p>
+      </div>
+      <div class="filtros" role="group" aria-label="Filtrar substâncias">
+        <button class="filtro ativo" data-filtro="todas">Todas</button>
+        <button class="filtro" data-filtro="legal">Legais ou regulamentadas</button>
+        <button class="filtro" data-filtro="ilegal">Ilícitas</button>
+        <button class="filtro" data-filtro="medicamento">Medicamentos</button>
+      </div>
+      <div class="grade-cards">
+        <article class="droga-card" data-categoria="legal">
+          <div class="card-topo cor-azul"><span class="card-numero">01</span><span class="card-icone">◉</span></div>
+          <div class="card-corpo"><span class="categoria">DEPRESSORA</span><h3>Álcool</h3><p>Pode diminuir os reflexos, a coordenação e o julgamento, mesmo quando a pessoa não percebe claramente a alteração.</p><button class="ler-mais" data-alvo="detalhe-alcool">Ver efeitos e riscos <span>→</span></button></div>
+          <div class="detalhe" id="detalhe-alcool" hidden><h4>Efeitos e riscos</h4><p>O uso pode causar acidentes, intoxicação, danos ao fígado e outros problemas. O consumo frequente pode levar à dependência. Misturar álcool com medicamentos ou outras drogas pode ser especialmente perigoso.</p></div>
+        </article>
+        <article class="droga-card" data-categoria="legal">
+          <div class="card-topo cor-laranja"><span class="card-numero">02</span><span class="card-icone">〰</span></div>
+          <div class="card-corpo"><span class="categoria">ESTIMULANTE</span><h3>Tabaco e nicotina</h3><p>A nicotina causa dependência. Fumar ou usar produtos com tabaco expõe o organismo a substâncias prejudiciais.</p><button class="ler-mais" data-alvo="detalhe-tabaco">Ver efeitos e riscos <span>→</span></button></div>
+          <div class="detalhe" id="detalhe-tabaco" hidden><h4>Efeitos e riscos</h4><p>A nicotina pode aumentar temporariamente a frequência cardíaca e a pressão arterial e causar dependência. O tabagismo aumenta o risco de câncer, doenças pulmonares e cardiovasculares. Cigarros eletrônicos também podem conter nicotina e não são inofensivos.</p></div>
+        </article>
+        <article class="droga-card" data-categoria="ilegal">
+          <div class="card-topo cor-verde"><span class="card-numero">03</span><span class="card-icone">✳</span></div>
+          <div class="card-corpo"><span class="categoria">EFEITOS VARIÁVEIS</span><h3>Maconha</h3><p>A cannabis pode alterar a percepção, a memória, a atenção, a coordenação e o tempo de reação.</p><button class="ler-mais" data-alvo="detalhe-maconha">Ver efeitos e riscos <span>→</span></button></div>
+          <div class="detalhe" id="detalhe-maconha" hidden><h4>Efeitos e riscos</h4><p>Os efeitos variam conforme a composição e a pessoa. Pode haver ansiedade, pânico, prejuízo da aprendizagem e da condução de veículos; o uso frequente pode levar a problemas de saúde e dependência. As leis variam conforme o local e a situação.</p></div>
+        </article>
+        <article class="droga-card" data-categoria="ilegal">
+          <div class="card-topo cor-roxo"><span class="card-numero">04</span><span class="card-icone">⚡</span></div>
+          <div class="card-corpo"><span class="categoria">ESTIMULANTES</span><h3>Cocaína e crack</h3><p>São formas de uma substância estimulante que afeta o cérebro e o sistema cardiovascular e pode provocar dependência.</p><button class="ler-mais" data-alvo="detalhe-cocaina">Ver efeitos e riscos <span>→</span></button></div>
+          <div class="detalhe" id="detalhe-cocaina" hidden><h4>Efeitos e riscos</h4><p>Podem causar agitação, ansiedade, aumento da pressão arterial e dos batimentos cardíacos. Há risco de arritmias, infarto, AVC, convulsões e dependência. Dor no peito, convulsão ou dificuldade para respirar exigem atendimento de emergência.</p></div>
+        </article>
+        <article class="droga-card" data-categoria="ilegal">
+          <div class="card-topo cor-rosa"><span class="card-numero">05</span><span class="card-icone">◇</span></div>
+          <div class="card-corpo"><span class="categoria">COMPOSIÇÃO VARIÁVEL</span><h3>Drogas sintéticas</h3><p>São substâncias produzidas por processos químicos. Seus efeitos variam bastante e a composição pode ser desconhecida.</p><button class="ler-mais" data-alvo="detalhe-sinteticas">Ver efeitos e riscos <span>→</span></button></div>
+          <div class="detalhe" id="detalhe-sinteticas" hidden><h4>Efeitos e riscos</h4><p>Algumas podem provocar alterações intensas de humor e percepção, hipertermia, desidratação, confusão, convulsões ou problemas cardíacos. Produtos vendidos com o mesmo nome podem conter substâncias diferentes, tornando os efeitos imprevisíveis.</p></div>
+        </article>
+        <article class="droga-card" data-categoria="medicamento">
+          <div class="card-topo cor-amarelo"><span class="card-numero">06</span><span class="card-icone">＋</span></div>
+          <div class="card-corpo"><span class="categoria">USO RESPONSÁVEL</span><h3>Medicamentos sem receita</h3><p>Medicamentos vendidos sem receita também podem causar efeitos adversos quando usados incorretamente.</p><button class="ler-mais" data-alvo="detalhe-medicamentos">Ver efeitos e riscos <span>→</span></button></div>
+          <div class="detalhe" id="detalhe-medicamentos" hidden><h4>Efeitos e riscos</h4><p>Tomar doses maiores que as indicadas, combinar remédios ou usá-los por tempo excessivo pode causar intoxicação e interações perigosas. Leia a bula, respeite a dose e procure um farmacêutico ou profissional de saúde em caso de dúvida. “Sem receita” não significa “sem risco”.</p></div>
+        </article>
+      </div>
+      <p class="rodape-nota">Os efeitos dependem de diversos fatores. As informações acima são gerais e não servem para diagnosticar ou tratar uma condição.</p>
+    </section>
+
+    <section class="secao prevencao" id="prevencao">
+      <div class="prevencao-texto">
+        <span class="sobretitulo">PREVENÇÃO NA PRÁTICA</span>
+        <h2>Pequenas atitudes podem fazer diferença.</h2>
+        <p>Prevenir não é só dizer “não”. Também é ter informação, apoio, espaços seguros e acesso a serviços de saúde.</p>
+      </div>
+      <div class="passos">
+        <div class="passo"><span>01</span><div><h3>Busque fontes confiáveis</h3><p>Desconfie de promessas milagrosas e de informações sem fonte.</p></div></div>
+        <div class="passo"><span>02</span><div><h3>Converse com alguém de confiança</h3><p>Família, professores e profissionais de saúde podem ajudar sem julgamentos.</p></div></div>
+        <div class="passo"><span>03</span><div><h3>Evite misturas e riscos</h3><p>Não misture substâncias ou medicamentos e não dirija após usar álcool ou drogas.</p></div></div>
+        <div class="passo"><span>04</span><div><h3>Peça ajuda cedo</h3><p>Você não precisa esperar a situação piorar para procurar apoio.</p></div></div>
+      </div>
+    </section>
+
+    <section class="secao ajuda" id="ajuda">
+      <div class="cabecalho-secao">
+        <span class="sobretitulo">VOCÊ NÃO ESTÁ SOZINHO</span>
+        <h2>Onde buscar ajuda no Brasil</h2>
+        <p>Se você ou alguém próximo estiver passando por dificuldades, existem serviços que podem orientar.</p>
+      </div>
+      <div class="ajuda-grade">
+        <div class="ajuda-card"><span class="ajuda-icone">✚</span><h3>UBS ou CAPS AD</h3><p>Uma Unidade Básica de Saúde pode orientar o primeiro atendimento. Os CAPS AD oferecem cuidado especializado relacionado ao uso de álcool e outras drogas.</p><a href="https://www.gov.br/saude/pt-br" target="_blank" rel="noopener noreferrer">Site do Ministério da Saúde ↗</a></div>
+        <div class="ajuda-card"><span class="ajuda-icone">☎</span><h3>Emergência médica</h3><p>Em caso de perda de consciência, dificuldade para respirar, convulsão ou suspeita de intoxicação grave, procure ajuda imediatamente.</p><strong>SAMU: 192</strong></div>
+        <div class="ajuda-card"><span class="ajuda-icone">♡</span><h3>Apoio e acolhimento</h3><p>Fale com uma pessoa de confiança ou procure um serviço de saúde. Apoiar alguém significa ouvir sem humilhar e incentivar a busca por atendimento.</p><a href="https://www.gov.br/saude/pt-br" target="_blank" rel="noopener noreferrer">Encontrar orientações ↗</a></div>
+      </div>
+      <p class="emergencia-nota">Se houver perigo imediato, não espere uma resposta pela internet: ligue para o serviço de emergência local.</p>
+    </section>
+
+    <section class="fontes">
+      <div><span class="sobretitulo">PARA SABER MAIS</span><h2>Fontes de informação</h2></div>
+      <div class="fontes-links">
+        <a href="https://www.gov.br/saude/pt-br" target="_blank" rel="noopener noreferrer">Ministério da Saúde <span>↗</span></a>
+        <a href="https://www.gov.br/inca/pt-br" target="_blank" rel="noopener noreferrer">Instituto Nacional de Câncer (INCA) <span>↗</span></a>
+        <a href="https://www.who.int/" target="_blank" rel="noopener noreferrer">Organização Mundial da Saúde <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+
+
+
+
+<!-- SEÇÃO EDUCATIVA: EFEITOS DAS DROGAS -->
+<section id="efeitos-drogas" class="efeitos-section">
+  <div class="efeitos-container">
+
+    <div class="efeitos-heading">
+      <span class="efeitos-badge">🧠 CONHECIMENTO E PREVENÇÃO</span>
+      <h2>O que as drogas fazem com o <span>seu corpo?</span></h2>
+      <p>
+        Os efeitos podem aparecer rapidamente ou se desenvolver com o tempo.
+        Conhecer os riscos ajuda a fazer escolhas mais conscientes e a
+        reconhecer quando alguém precisa de ajuda.
+      </p>
+    </div>
+
+    <!-- EFEITOS A CURTO PRAZO -->
+    <div class="efeitos-bloco">
+      <div class="efeitos-subtitulo">
+        <span class="efeitos-numero">01</span>
+        <div>
+          <h3>Efeitos a curto prazo</h3>
+          <p>O que pode acontecer logo após o consumo?</p>
+        </div>
+      </div>
+
+      <div class="efeitos-grid">
+        <article class="efeito-card curto">
+          <div class="efeito-icone">🍺</div>
+          <h4>Álcool</h4>
+          <p>
+            Pode provocar tontura, fala arrastada, perda de equilíbrio,
+            reflexos lentos, enjoo e dificuldade para tomar decisões.
+            Em grandes quantidades, pode causar intoxicação grave.
+          </p>
+          <span class="efeito-label">Reflexos e coordenação</span>
+        </article>
+
+        <article class="efeito-card curto">
+          <div class="efeito-icone">🚬</div>
+          <h4>Tabaco e nicotina</h4>
+          <p>
+            Podem aumentar os batimentos cardíacos e a pressão arterial.
+            Também podem causar tontura, enjoo e uma sensação passageira
+            de alerta. A nicotina pode causar dependência.
+          </p>
+          <span class="efeito-label">Coração e dependência</span>
+        </article>
+
+        <article class="efeito-card curto">
+          <div class="efeito-icone">🌿</div>
+          <h4>Maconha</h4>
+          <p>
+            Pode alterar a percepção do tempo, prejudicar a memória
+            recente e a coordenação. Algumas pessoas apresentam
+            ansiedade, medo intenso ou paranoia.
+          </p>
+          <span class="efeito-label">Percepção e memória</span>
+        </article>
+
+        <article class="efeito-card curto">
+          <div class="efeito-icone">⚠️</div>
+          <h4>Cocaína e crack</h4>
+          <p>
+            Podem provocar agitação, ansiedade, aumento da frequência
+            cardíaca e da pressão arterial. Também podem causar
+            arritmias, convulsões e outros problemas graves.
+          </p>
+          <span class="efeito-label">Coração e sistema nervoso</span>
+        </article>
+
+        <article class="efeito-card curto">
+          <div class="efeito-icone">🧪</div>
+          <h4>Drogas sintéticas</h4>
+          <p>
+            Os efeitos variam bastante conforme a substância.
+            Podem incluir alterações de percepção, confusão, agitação,
+            alucinações e aumento perigoso da temperatura corporal.
+          </p>
+          <span class="efeito-label">Efeitos imprevisíveis</span>
+        </article>
+
+        <article class="efeito-card curto">
+          <div class="efeito-icone">💊</div>
+          <h4>Medicamentos sem orientação</h4>
+          <p>
+            O uso inadequado pode causar sonolência, tontura, intoxicação
+            e interações perigosas. Alguns medicamentos, especialmente
+            em doses elevadas ou combinados com álcool, podem afetar
+            a respiração e o coração.
+          </p>
+          <span class="efeito-label">Uso responsável</span>
+        </article>
+      </div>
+    </div>
+
+    <!-- EFEITOS A LONGO PRAZO -->
+    <div class="efeitos-bloco">
+      <div class="efeitos-subtitulo">
+        <span class="efeitos-numero">02</span>
+        <div>
+          <h3>Efeitos a longo prazo</h3>
+          <p>Como o consumo frequente pode afetar a vida?</p>
+        </div>
+      </div>
+
+      <div class="efeitos-longo-grid">
+        <article class="efeito-longo-card">
+          <div class="efeito-longo-icon">❤️</div>
+          <div>
+            <h4>Saúde física</h4>
+            <p>
+              Dependendo da substância e do padrão de consumo, podem ocorrer
+              danos ao coração, fígado, pulmões e outros órgãos. Tabaco e
+              álcool também estão associados a vários tipos de câncer.
+            </p>
+          </div>
+        </article>
+
+        <article class="efeito-longo-card">
+          <div class="efeito-longo-icon">🧠</div>
+          <div>
+            <h4>Memória e concentração</h4>
+            <p>
+              Algumas substâncias podem prejudicar a atenção, a memória,
+              o aprendizado e outras funções cognitivas, especialmente
+              quando o consumo é frequente.
+            </p>
+          </div>
+        </article>
+
+        <article class="efeito-longo-card">
+          <div class="efeito-longo-icon">🔄</div>
+          <div>
+            <h4>Dependência</h4>
+            <p>
+              A pessoa pode desenvolver dificuldade para controlar o
+              consumo, sentir desejo intenso pela substância e continuar
+              usando mesmo diante de consequências negativas.
+            </p>
+          </div>
+        </article>
+
+        <article class="efeito-longo-card">
+          <div class="efeito-longo-icon">💬</div>
+          <div>
+            <h4>Saúde emocional e social</h4>
+            <p>
+              O uso problemático pode afetar relacionamentos, estudos,
+              trabalho, rotina e bem-estar emocional. Isso não significa
+              que todas as pessoas terão os mesmos problemas.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- CÉREBRO DO ADOLESCENTE -->
+    <div class="cerebro-box">
+      <div class="cerebro-conteudo">
+        <span class="cerebro-tag">ATENÇÃO ESPECIAL</span>
+        <h3>🧠 O cérebro do adolescente ainda está em desenvolvimento</h3>
+        <p>
+          Durante a adolescência, o cérebro continua amadurecendo,
+          incluindo regiões importantes para o planejamento, o controle
+          dos impulsos, a avaliação de riscos e a tomada de decisões.
+        </p>
+
+        <div class="cerebro-lista">
+          <div class="cerebro-item">
+            <span>01</span>
+            <div>
+              <h4>Memória e aprendizagem</h4>
+              <p>
+                Algumas substâncias podem dificultar a concentração,
+                a retenção de informações e o desempenho escolar.
+              </p>
+            </div>
+          </div>
+
+          <div class="cerebro-item">
+            <span>02</span>
+            <div>
+              <h4>Emoções e decisões</h4>
+              <p>
+                O consumo pode afetar o julgamento e, em algumas pessoas,
+                piorar a ansiedade ou outros problemas emocionais.
+              </p>
+            </div>
+          </div>
+
+          <div class="cerebro-item">
+            <span>03</span>
+            <div>
+              <h4>Maior risco de dependência</h4>
+              <p>
+                Começar cedo está associado a maior risco de desenvolver
+                problemas relacionados ao consumo de substâncias.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cerebro-aviso">
+          <span>💡</span>
+          <p>
+            <strong>Importante:</strong> os efeitos dependem da substância,
+            da quantidade, da frequência e de fatores individuais.
+            Nem toda pessoa terá os mesmos efeitos, e consequências
+            permanentes não são inevitáveis. Prevenção e orientação
+            profissional fazem diferença.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- QUANDO BUSCAR AJUDA -->
+    <div class="ajuda-efeitos">
+      <div class="ajuda-efeitos-icon">🤝</div>
+      <div>
+        <h3>Precisando conversar ou buscar ajuda?</h3>
+        <p>
+          Se o consumo estiver causando problemas ou você estiver preocupado
+          com alguém, procure um adulto de confiança, uma unidade de saúde
+          ou um profissional. Pedir ajuda não é motivo de vergonha.
+        </p>
+      </div>
+    </div>
+
+    <p class="efeitos-nota">
+      Conteúdo educativo. Não substitui avaliação médica ou orientação
+      profissional individual.
+    </p>
+
+  </div>
+</section>
+
+<style>
+/* ===== EFEITOS DAS DROGAS: ESTILO ===== */
+
+.efeitos-section {
+  --efeito-bg: #0b1020;
+  --efeito-card: #131b2e;
+  --efeito-text: #edf2ff;
+  --efeito-muted: #a4b0c8;
+  --efeito-accent: #6c8cff;
+  background:
+    radial-gradient(ellipse at 10% 0%, #25376a55, transparent 40%),
+    radial-gradient(ellipse at 90% 50%, #174e5940, transparent 40%),
+    var(--efeito-bg);
+  color: var(--efeito-text);
+  padding: 90px 24px;
+  font-family: inherit;
+}
+
+.efeitos-container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.efeitos-heading {
+  max-width: 800px;
+  margin: 0 auto 65px;
+  text-align: center;
+}
+
+.efeitos-badge,
+.cerebro-tag {
+  display: inline-block;
+  color: #a9bbff;
+  background: #6c8cff1a;
+  border: 1px solid #6c8cff55;
+  border-radius: 100px;
+  padding: 9px 15px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.efeitos-heading h2 {
+  margin: 22px 0 16px;
+  font-size: clamp(30px, 5vw, 48px);
+  line-height: 1.15;
+  letter-spacing: -1.5px;
+}
+
+.efeitos-heading h2 span {
+  color: #85a1ff;
+}
+
+.efeitos-heading > p {
+  color: var(--efeito-muted);
+  font-size: 16px;
+  line-height: 1.85;
+}
+
+.efeitos-bloco {
+  margin-top: 65px;
+}
+
+.efeitos-subtitulo {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 28px;
+}
+
+.efeitos-numero {
+  display: grid;
+  place-items: center;
+  min-width: 54px;
+  height: 54px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #6c8cff, #7a62db);
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+  box-shadow: 0 8px 25px #6c8cff30;
+}
+
+.efeitos-subtitulo h3 {
+  font-size: clamp(22px, 3vw, 30px);
+  margin: 0 0 5px;
+}
+
+.efeitos-subtitulo p {
+  color: var(--efeito-muted);
+  margin: 0;
+  line-height: 1.6;
+}
+
+.efeitos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.efeito-card {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(145deg, #182238, #111827);
+  border: 1px solid #ffffff12;
+  border-radius: 20px;
+  padding: 27px;
+  transition: transform .25s ease, border-color .25s ease,
+              box-shadow .25s ease;
+}
+
+.efeito-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 3px;
+  background: linear-gradient(90deg, #6c8cff, #54d6cb);
+  opacity: .8;
+}
+
+.efeito-card:hover {
+  transform: translateY(-6px);
+  border-color: #829cff80;
+  box-shadow: 0 18px 40px #00000035;
+}
+
+.efeito-icone {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  background: #6c8cff20;
+  font-size: 25px;
+}
+
+.efeito-card h4,
+.efeito-longo-card h4 {
+  color: #f5f7ff;
+  font-size: 19px;
+  margin: 0 0 12px;
+}
+
+.efeito-card p,
+.efeito-longo-card p {
+  color: var(--efeito-muted);
+  font-size: 14px;
+  line-height: 1.85;
+  margin: 0;
+}
+
+.efeito-label {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 7px 10px;
+  border-radius: 8px;
+  background: #ffffff09;
+  color: #b7c5ff;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.efeitos-longo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.efeito-longo-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  background: #131b2e;
+  border: 1px solid #ffffff12;
+  border-radius: 18px;
+  padding: 25px;
+  transition: border-color .25s ease, transform .25s ease;
+}
+
+.efeito-longo-card:hover {
+  border-color: #54d6cb80;
+  transform: translateY(-3px);
+}
+
+.efeito-longo-icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 48px;
+  height: 48px;
+  border-radius: 14px;
+  background: #54d6cb16;
+  font-size: 23px;
+}
+
+.cerebro-box {
+  position: relative;
+  overflow: hidden;
+  margin-top: 75px;
+  border: 1px solid #829cff45;
+  border-radius: 28px;
+  padding: clamp(25px, 5vw, 55px);
+  background:
+    radial-gradient(ellipse at 100% 0%, #6c8cff25, transparent 45%),
+    linear-gradient(140deg, #172443, #111827);
+}
+
+.cerebro-conteudo {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cerebro-box h3 {
+  margin: 20px 0 15px;
+  font-size: clamp(25px, 4vw, 36px);
+  line-height: 1.3;
+}
+
+.cerebro-box > .cerebro-conteudo > p {
+  color: #c0cbe0;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.cerebro-lista {
+  display: grid;
+  gap: 14px;
+  margin-top: 30px;
+}
+
+.cerebro-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 17px;
+  padding: 20px;
+  border: 1px solid #ffffff12;
+  border-radius: 16px;
+  background: #ffffff07;
+}
+
+.cerebro-item > span {
+  display: grid;
+  place-items: center;
+  flex: 0 0 38px;
+  height: 38px;
+  border-radius: 12px;
+  background: #6c8cff25;
+  color: #b8c7ff;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.cerebro-item h4 {
+  margin: 0 0 7px;
+  font-size: 16px;
+}
+
+.cerebro-item p {
+  color: #aebbd2;
+  font-size: 14px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.cerebro-aviso {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-top: 25px;
+  padding: 20px;
+  border: 1px solid #54d6cb40;
+  border-radius: 16px;
+  background: #54d6cb0c;
+}
+
+.cerebro-aviso > span {
+  font-size: 23px;
+}
+
+.cerebro-aviso p {
+  margin: 0;
+  color: #c8e6e6;
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.ajuda-efeitos {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 55px;
+  padding: 28px;
+  border: 1px solid #54d6cb45;
+  border-radius: 20px;
+  background: linear-gradient(110deg, #143a3a55, #131b2e);
+}
+
+.ajuda-efeitos-icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 55px;
+  height: 55px;
+  border-radius: 16px;
+  background: #54d6cb1b;
+  font-size: 26px;
+}
+
+.ajuda-efeitos h3 {
+  margin: 0 0 10px;
+  font-size: 21px;
+}
+
+.ajuda-efeitos p {
+  margin: 0;
+  color: var(--efeito-muted);
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.efeitos-nota {
+  margin-top: 28px;
+  text-align: center;
+  color: #7f8da8;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+  .efeitos-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .efeitos-section {
+    padding: 60px 16px;
+  }
+
+  .efeitos-heading {
+    margin-bottom: 45px;
+  }
+
+  .efeitos-grid,
+  .efeitos-longo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .efeitos-bloco {
+    margin-top: 48px;
+  }
+
+  .efeito-card,
+  .efeito-longo-card {
+    padding: 22px;
+  }
+
+  .efeitos-subtitulo {
+    align-items: flex-start;
+    gap: 13px;
+  }
+
+  .efeitos-numero {
+    min-width: 44px;
+    height: 44px;
+    border-radius: 13px;
+  }
+
+  .cerebro-box {
+    margin-top: 50px;
+    border-radius: 20px;
+  }
+
+  .cerebro-item {
+    padding: 15px;
+    gap: 12px;
+  }
+
+  .ajuda-efeitos {
+    padding: 21px;
+    gap: 14px;
+  }
+
+  .ajuda-efeitos-icon {
+    flex-basis: 42px;
+    height: 42px;
+    font-size: 21px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .efeito-card,
+  .efeito-longo-card {
+    transition: none;
+  }
+
+  .efeito-card:hover,
+  .efeito-longo-card:hover {
+    transform: none;
+  }
+}
+</style>
+
+
+
+
+
+<section id="quiz" class="secao">
+  <div class="cabecalho-secao">
+    <span class="sobretitulo">AUTOAVALIAÇÃO</span>
+    <h2>Quiz de Consciência e Prevenção</h2>
+    <p>Responda com sinceridade. Este quiz é educativo e não fornece diagnóstico médico.</p>
+  </div>
+
+  <div id="quiz-box" class="quiz-box">
+    <div class="quiz-progresso">
+      <span id="quiz-numero">Pergunta 1 de 10</span>
+      <span id="quiz-percentual">10%</span>
+    </div>
+    <div class="quiz-barra"><div id="quiz-barra-interna"></div></div>
+
+    <h3 id="quiz-pergunta"></h3>
+    <div id="quiz-opcoes" class="quiz-opcoes"></div>
+
+    <p id="quiz-erro" role="alert"></p>
+
+    <div class="quiz-botoes">
+      <button id="quiz-voltar" type="button">← Voltar</button>
+      <button id="quiz-proximo" type="button">Próxima →</button>
+    </div>
+  </div>
+
+  <div id="quiz-resultado" class="quiz-resultado" hidden aria-live="polite">
+    <h2 id="resultado-titulo"></h2>
+    <p id="resultado-texto"></p>
+    <p id="resultado-ajuda"></p>
+    <button id="quiz-refazer" type="button">Refazer quiz</button>
+  </div>
+</section>
+
+<style>
+.quiz-box,.quiz-resultado {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 28px;
+  background: white;
+  border: 1px solid #e3e9f2;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px #152b4c0b;
+}
+.quiz-progresso {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: #64748b;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+.quiz-barra {
+  height: 7px;
+  border-radius: 20px;
+  background: #e8edf5;
+  overflow: hidden;
+  margin-bottom: 28px;
+}
+#quiz-barra-interna {
+  height: 100%;
+  width: 10%;
+  background: #2866e8;
+  transition: width .25s;
+}
+#quiz-pergunta { font-size: 22px; line-height: 1.4; }
+.quiz-opcoes { display: grid; gap: 10px; margin: 22px 0; }
+.quiz-opcao {
+  text-align: left;
+  padding: 14px 16px;
+  border: 1px solid #dce4ef;
+  border-radius: 9px;
+  background: #fff;
+  color: #24344d;
+  cursor: pointer;
+}
+.quiz-opcao:hover,.quiz-opcao.selecionada {
+  border-color: #2866e8;
+  background: #edf3ff;
+}
+.quiz-botoes { display:flex; justify-content:space-between; gap:12px; }
+.quiz-botoes button,#quiz-refazer {
+  border: 0;
+  border-radius: 8px;
+  padding: 12px 18px;
+  background: #2866e8;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+#quiz-voltar { background: #e9eef6; color: #25344b; }
+#quiz-erro { color: #bd3030; font-size: 13px; }
+.quiz-resultado h2 { font-size: 26px; }
+.quiz-resultado p { line-height: 1.8; color: #526178; }
+.quiz-resultado a { color: #2866e8; text-decoration: underline; }
+@media(max-width:600px) {
+  .quiz-box,.quiz-resultado { padding: 20px; }
+  #quiz-pergunta { font-size: 19px; }
+}
+</style>
+
+<script>
+(() => {
+  const perguntas = [
+    "Você já se arrependeu de algo que fez depois de consumir álcool ou outra substância?",
+    "Você sente dificuldade para controlar a quantidade ou a frequência do consumo?",
+    "Você já tentou diminuir ou parar e teve dificuldade?",
+    "O consumo já atrapalhou seus estudos, trabalho ou relacionamentos?",
+    "Você continuou consumindo mesmo percebendo consequências negativas?",
+    "Você sente vontade intensa de consumir alguma substância?",
+    "Você percebe que precisa consumir mais para sentir o mesmo efeito?",
+    "Você já tomou medicamentos de forma diferente da indicada na bula ou por um profissional?",
+    "Você já misturou álcool, medicamentos ou outras substâncias sem saber se era seguro?",
+    "Você sente que precisa de ajuda para entender ou controlar seu consumo?"
+  ];
+
+  const opcoesPadrao = [
+    { texto: "Nunca", pontos: 0 },
+    { texto: "Raramente", pontos: 1 },
+    { texto: "Às vezes", pontos: 2 },
+    { texto: "Frequentemente", pontos: 3 }
+  ];
+
+  // Para perguntas sobre situações que podem indicar risco,
+  // "Não se aplica" permite responder a quem nunca consumiu.
+  const respostas = Array(10).fill(null);
+  let atual = 0;
+
+  const $ = id => document.getElementById(id);
+  const box = $("quiz-box");
+  const resultado = $("quiz-resultado");
+
+  function montarPergunta() {
+    const pergunta = perguntas[atual];
+    $("quiz-numero").textContent = `Pergunta ${atual + 1} de 10`;
+    $("quiz-percentual").textContent = `${(atual + 1) * 10}%`;
+    $("quiz-barra-interna").style.width = `${(atual + 1) * 10}%`;
+    $("quiz-pergunta").textContent = pergunta;
+
+    const opcoes = atual === 9
+      ? [
+          { texto: "Não", pontos: 0 },
+          { texto: "Talvez", pontos: 2 },
+          { texto: "Sim", pontos: 3 }
+        ]
+      : [
+          ...opcoesPadrao,
+          { texto: "Não se aplica / Nunca consumi", pontos: 0, naoAplica: true }
+        ];
+
+    $("quiz-opcoes").replaceChildren();
+    $("quiz-erro").textContent = "";
+
+    opcoes.forEach(opcao => {
+      const botao = document.createElement("button");
+      botao.type = "button";
+      botao.className = "quiz-opcao";
+      botao.textContent = opcao.texto;
+
+      if (respostas[atual]?.texto === opcao.texto) {
+        botao.classList.add("selecionada");
+      }
+
+      botao.addEventListener("click", () => {
+        respostas[atual] = {
+          texto: opcao.texto,
+          pontos: opcao.pontos,
+          naoAplica: Boolean(opcao.naoAplica)
+        };
+        $("quiz-opcoes").querySelectorAll("button")
+          .forEach(b => b.classList.remove("selecionada"));
+        botao.classList.add("selecionada");
+        $("quiz-erro").textContent = "";
+      });
+
+      $("quiz-opcoes").appendChild(botao);
+    });
+
+    $("quiz-voltar").hidden = atual === 0;
+    $("quiz-proximo").textContent =
+      atual === perguntas.length - 1 ? "Ver meu resultado" : "Próxima →";
+  }
+
+  function mostrarResultado() {
+    const pontuacao = respostas.reduce((soma, r) => soma + r.pontos, 0);
+    const querAjuda = respostas[9].pontos > 0;
+    const riscoMedicamento = respostas[7].pontos >= 2;
+    const mistura = respostas[8].pontos >= 2;
+
+    // O resultado não é um diagnóstico nem uma escala clínica validada.
+    let nivel, titulo, texto;
+
+    if (pontuacao >= 12 || querAjuda) {
+      nivel = 3;
+      titulo = "Buscar apoio pode fazer diferença";
+      texto = "Suas respostas indicam que vale conversar com um profissional de saúde. Isso não significa que você tenha um diagnóstico. Você merece apoio sem julgamentos.";
+    } else if (pontuacao >= 5) {
+      nivel = 2;
+      titulo = "Vale prestar atenção";
+      texto = "Algumas respostas merecem atenção. Reflita sobre seus hábitos e converse com alguém de confiança. Se estiver difícil controlar o consumo, procure orientação profissional.";
+    } else {
+      nivel = 1;
+      titulo = "Continue se cuidando";
+      texto = "Suas respostas apontaram poucos sinais neste questionário. Isso não garante que o consumo seja seguro. Evitar substâncias é a forma mais segura de evitar os riscos associados a elas.";
+    }
+
+    $("resultado-titulo").textContent = titulo;
+    $("resultado-texto").textContent = texto;
+
+    let orientacoes = [];
+
+    if (riscoMedicamento) {
+      orientacoes.push("Você relatou possível uso incorreto de medicamentos. Leia a bula e procure orientação de um farmacêutico ou profissional de saúde. Não tome doses extras por conta própria.");
+    }
+
+    if (mistura) {
+      orientacoes.push("Misturar substâncias pode ser perigoso. Evite novas misturas e procure orientação de um profissional de saúde.");
+    }
+
+    if (nivel >= 2) {
+      orientacoes.push("Você pode procurar uma UBS ou um CAPS AD para receber orientação e apoio.");
+    }
+
+    if (orientacoes.length === 0) {
+      orientacoes.push("Se tiver dúvidas ou quiser conversar, uma UBS pode orientar você. Você não precisa esperar um problema piorar para pedir ajuda.");
+    }
+
+    orientacoes.push("Este quiz é educativo, não substitui avaliação profissional e não consegue determinar se alguém tem dependência.");
+
+    $("resultado-ajuda").textContent = orientacoes.join(" ");
+
+    box.hidden = true;
+    resultado.hidden = false;
+    resultado.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  $("quiz-proximo").addEventListener("click", () => {
+    if (!respostas[atual]) {
+      $("quiz-erro").textContent = "Selecione uma resposta para continuar.";
+      return;
+    }
+
+    if (atual < perguntas.length - 1) {
+      atual++;
+      montarPergunta();
+    } else {
+      mostrarResultado();
+    }
+  });
+
+  $("quiz-voltar").addEventListener("click", () => {
+    if (atual > 0) {
+      atual--;
+      montarPergunta();
+    }
+  });
+
+  $("quiz-refazer").addEventListener("click", () => {
+    respostas.fill(null);
+    atual = 0;
+    resultado.hidden = true;
+    box.hidden = false;
+    montarPergunta();
+    box.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+
+  montarPergunta();
+})();
+</script>
+
+
+  <footer class="rodape">
+    <a class="marca" href="#inicio"><span class="marca-icone">+</span><span>Escolhas<span class="marca-clara"> & Saúde</span></span></a>
+    <p>Projeto educativo • Informação para escolhas mais seguras</p>
+    <a href="#inicio" class="voltar">Voltar ao topo ↑</a>
+  </footer>
+</body>
+</html>
